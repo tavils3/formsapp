@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.forms-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.forms-list__item {
+    width: 48%;
+    margin-top: 1%;
+    text-align: center;
+    border: 5px solid #eee;
+    border-radius: 5px;
+    padding: 3%;
+}
+.forms-list__item-field {
+    display: block;
+    margin: 15px auto 0 auto;
+    min-width: 220px;
+    height: 35px;
+    padding: 0 5px;
+}
+.forms-list__item-field:first-child {
+    margin-top: 0;
+}
+.forms-list__item-button {
+    background: #1cad00;
+    display: block;
+    margin: 25px auto 0 auto;
+    min-width: 220px;
+    height: 35px;
+    padding: 0 5px;
+    color: #fff;
+    border: none;
+}
+.forms-list__item-button:hover {
+    cursor: pointer;
+}
+.forms-list__item-error {
+    margin-top: 5px;
+    color: red;
+    font-size: 14px;
+    height: 14px;
+}
+.forms-list__item-data {
+    margin-top: 5px;
+    color: green;
+    font-size: 14px;
+    height: 14px;
+}
+
+.form-creator {
+    text-align: center;
+    border: 5px solid #eee;
+    border-radius: 5px;
+    padding: 3%;
+}
+.form-creator__button {
+    background: #c90000;
+    border: none;
+    margin: 15px auto 0 auto;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    min-width: 220px;
+}
+.form-creator__button:hover {
+    cursor: pointer;
+}
+.form-creator__button:first-child {
+    margin-top: 0;
+}
+.form-creator__button_inactive {
+    opacity: 0.7;
+    background: #898989;
+}
+.form-creator__button_create {
+    background: #0022aa;
+    margin-top: 25px;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
